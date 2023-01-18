@@ -85,5 +85,3 @@ let prima = (bilangan) => {
 }
 
 console.log(prima(73))
-
-

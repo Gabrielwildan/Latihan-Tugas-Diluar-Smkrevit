@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belajar Javascript</title>
-    <script src="js/lat05.js" async></script>
+    <script src="js/lat04.js" async></script>
 </head>
 
 <body>
@@ -17,25 +17,33 @@
         <input type="number" placeholder="bulan" id="bulan" name="bln">
         <input type="number" placeholder="tanggal" id="tanggal" name="tgl">
 
-        <button onclick="hasil()">
+        <button onclick="zodiak()">
             zodiak
         </button>
     </div>
 
     <div>
-        <input type="number" placeholder="number" id="terbilang">
-        <button>
-            button
-        </button>
+        <input type="number" placeholder="Nilai" name="nilai" id="nilai">
+        <button onclick="lulus()">Check</button>
+    </div>
+
+    <div>
+        <input type="number" placeholder="number" id="num">
+        <button onclick="terbilang()">terbilang</button>
+    </div>
+
+    <div>
+        <input type="number" placeholder="prima" id="number">
+        <button onclick="prima()">Check</button>
     </div>
 
     <h1 style="font-style: italic;" id="belajar">BELAJAR JAVASCRIPT</h1>
-    <p id="paragraf">saya belajar </p>
+    <p id="paragraf"> </p>
     <div id="isi">
 
     </div>
 
-    <div id="content">
+    <!-- <div id="content">
         <h2 id="h2">bakso</h2>
         <p>deskripsi bakso</p>
         <img src="/images/bakso.jpg" alt="" srcset="">
@@ -79,7 +87,7 @@
                 <td>10</td>
             </tr>
         </tbody>
-    </table>
+    </table> -->
 </body>
 
 
